@@ -171,6 +171,9 @@ body {
     align-items: center;
 }
 
+
+/* Header Styling*/
+
 header {
     display: flex;
     flex-direction: column;
@@ -189,6 +192,15 @@ header nav ul li a {
     color: grey;
     text-decoration: none;
 }
+
+
+/*Header Tablet*/
+
+
+/*Header Phone*/
+
+
+/*Heading Styling*/
 
 #heading {
     display: flex;
@@ -216,6 +228,15 @@ header nav ul li a {
     border: 1px solid black;
 }
 
+
+/*Heading Tablet*/
+
+
+/*Heading Phone*/
+
+
+/*Center Content Styling*/
+
 .center-content {
     display: flex;
     width: 876px;
@@ -240,6 +261,15 @@ header nav ul li a {
     padding-right: 17px;
     margin-top: 10px;
 }
+
+
+/*Center Content Tablet*/
+
+
+/*Center Content Phone*/
+
+
+/*Footer Styling*/
 
 footer {
     display: flex;
