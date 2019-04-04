@@ -333,7 +333,13 @@ header nav ul li a {
 footer {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 876px;
+}
+
+@media (max-width: 800px) {
+    footer {
+        width: 100%;
+    }
 }
 
 footer p {
