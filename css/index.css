@@ -219,6 +219,29 @@ header nav ul li a {
     }
 }
 
+@media (max-width: 500px) {
+    header nav {
+        flex-flow: column wrap;
+    }
+    .logo {
+        width: 20%;
+        align-self: center;
+        margin-bottom: 1%;
+    }
+    header nav ul {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    header nav ul li {
+        width: 100%;
+        border-top: 1px solid grey;
+        padding: 2%;
+        text-align: center;
+    }
+}
+
 #heading {
     display: flex;
     height: 380px;
@@ -230,6 +253,13 @@ header nav ul li a {
     padding-bottom: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    #heading {
+        margin-top: 10px;
+        border-top: 1px solid grey;
+    }
 }
 
 #heading h1 {
@@ -294,10 +324,16 @@ header nav ul li a {
     }
 }
 
+@media (max-width: 500px) {
+    .center-content div {
+        flex-flow: column wrap;
+    }
+}
+
 footer {
     display: flex;
     flex-direction: column;
-    width: 876px;
+    width: 100%;
 }
 
 footer p {
